@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--@meta-info-->
+    <title></title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!--@stylesheet-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles/app.css">
+</head>
+
+<body id="app">
+    <!-- @sidebar - for smaller screen, when navbar will be hidden. -->
+    <div class="sidenav left" id="sidenav1">
+        <div class="sidenav-closer">
+            <button onclick="document.getElementById('sidenav1').style.display='none'">
+                <i class="material-icons">close</i>
+            </button>
+        </div>
+        <div class="sidenav-options">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="adoption.html">Adoption</a></li>
+                <li><a href="strength.html">Strength</a></li>
+                <li><a href="endangerd.html">Endangerd</a></li>
+                <li><a href="visit-us.html">Visit Us</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="donation.html" class="active">Donate</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- @end-sidebar -->
+
+    <!-- @header or navbar - when screen is large enough to show navigation horizontal. -->
+    <header class="header" id="header">
+        <div class="hwrap">
+            <nav class="navbar flex margin-auto">
+                <div class="navbar-left flex">
+                    <div class="navbar-item-logo">
+                        <a href="index.html" class="navbar-logo-img">
+                            <img src="assets/images/logo/logo.jpg" alt="" srcset="">
+                        </a>
+                    </div>
+                </div>
+                <div class="navbar-right">
+                    <div class="navbar-toggle">
+                        <a href="javascript:void(0)"
+                            onclick="document.querySelector('#sidenav1').style.display='block'">
+                            <i class="material-icons">menu</i>
+                        </a>
+                    </div>
+                    <div class="navbar-right-options">
+                        <a href="index.html" class="drop-inline-links">Home</a>
+                        <div class="nav-dropdown">
+                            <button class="nav-dropdown-btn">Gallery</button>
+                            <div class="nav-dropdown-content">
+                                <ul class="nav-dropdown-menu">
+                                    <li><a href="gallery.html#animals">Animals</a></li>
+                                    <li><a href="gallery.html#birds">Birds</a></li>
+                                    <li><a href="gallery.html">All</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="donation.html" class="drop-inline-links">Donate</a>
+                        <a href="adoption.html" class="drop-inline-links">Adopte</a>
+                        <div class="nav-dropdown">
+                            <button class="nav-dropdown-btn">More</button>
+                            <div class="nav-dropdown-content">
+                                <ul class="nav-dropdown-menu">
+                                    <li><a href="strength.html">Strength</a></li>
+                                    <li><a href="endangerd.html">Endangerd</a></li>
+                                    <li><a href="visit-us.html">Visit Us</a></li>
+                                    <li><a href="about-us.html">About Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <img src="assets/images/header/4.gif" style="width:100%">
+            <div class="text">
+                <div class="slide-text">
+                    <h1>WE LOVE TO SAVE ANIMALS</h1>
+                    <p>An animal that is endangered is close to extinction — meaning there aren't very many of that type
+                        of animal left in the world.</p>
+                    <div>
+                        <a href="endangerd.html" class="slide-button">Endangerd ANIMALS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- @SHORT-INDEX-GALLERY-->
+    <section class="index-gallery" id="indexGallery">
+        <div class="igallery-content">
+
+            <div class="igallery-content-heading">
+                <h1>OUR SHORT GALLERY</h1>
+                <p>Check Out Our top most images of the gallery</p>
+            </div>
+
+            <div class="gallery-cards">
+                <div class="gallery-card animals lightboxpusher" data-src="assets/images/photos/bird3.jpg">
+                    <img src="assets/images/photos/bird3.jpg" alt="Avatar" class="image">
+                    <div class="overlay">
+                        <div class="text">
+                            <div class="gallery-card-icon">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-card birds lightboxpusher" data-src="assets/images/photos/cat.jpg">
+                    <img src="assets/images/photos/cat.jpg" alt="Avatar" class="image">
+                    <div class="overlay">
+                        <div class="text">
+                            <div class="gallery-card-icon">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="gallery-card animals lightboxpusher" data-src="assets/images/photos/zebra.jpg">
+                    <img src="assets/images/photos/zebra.jpg" alt="Avatar" class="image">
+                    <div class="overlay">
+                        <div class="text">
+                            <div class="gallery-card-icon">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-card animals lightboxpusher" data-src="assets/images/photos/swan.jpg">
+                    <img src="assets/images/photos/swan.jpg" alt="Avatar" class="image">
+                    <div class="overlay">
+                        <div class="text">
+                            <div class="gallery-card-icon">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-card birds lightboxpusher" data-src="assets/images/photos/elephant.jpg">
+                    <img src="assets/images/photos/elephant.jpg" alt="Avatar" class="image">
+                    <div class="overlay">
+                        <div class="text">
+                            <div class="gallery-card-icon">
+                                <i class="fas fa-plus"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-card animals lightboxpusher" data-src="assets/images/photos/fox.jpg">
+                    <img src="assets/images/photos/fox.jpg" alt="Avatar" class="image">
+                    <div class="overlay">
+                        <div class="text">
+                            <div class="gallery-card-icon">
+                                <i class="fas fa-plus"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="gallery-card birds lightboxpusher" data-src="assets/images/photos/lionpair.jpg">
+                    <img src="assets/images/photos/lionpair.jpg" alt="Avatar" class="image">
+                    <div class="overlay">
+                        <div class="text">
+                            <div class="gallery-card-icon">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-card birds lightboxpusher" data-src="assets/images/photos/bird2.jpg">
+                    <img src="assets/images/photos/bird2.jpg" alt="Avatar" class="image">
+                    <div class="overlay">
+                        <div class="text">
+                            <div class="gallery-card-icon">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="gallery-more-btn" href="gallery.html">See All</a>
+        </div>
+    </section>
+    <!-- @END-SHORT-INDEX-GALLERY-->
+
+    <!-- @VOLENTIER-->
+    <section class="index-add-volentier" id="indexVolentier">
+        <div class="iavolentier-content flex flex-middle">
+            <div class="iavolentier-content-left">
+                <h1>READY TO BECOME A VOLENTEER?</h1>
+                <p>Phasellus et diam nec massa lobortis venenatis. Nullam varius enim at eros ullamcorper semper. Sed
+                    diam metus, facilisis eu.</p>
+            </div>
+            <div class="iavolentier-content-right">
+                <a href="authentication.html" class="volentier-join-btn">Join Now</a>
+            </div>
+
+        </div>
+    </section>
+    <!-- @END-VOLENTIER-->
+
+
+    <!-- @LIGHTBOX-->
+    <div class="light-box" id="LighBox">
+        <div class="light-box-wrapper">
+            <div class="light-box-content">
+                <span class="close-btn">&times</span>
+                <img src=alt="" id="lightImg">
+            </div>
+        </div>
+    </div>
+    <!-- @END-LIGHTBOX-->
+
+    <!-- @footer-->
+    <footer class="footer">
+        <div class="footerh">
+            <div class="logo">
+                <a href="">
+                    <img src="assets/images/logo/logo.jpg" alt="">
+                </a>
+            </div>
+            <center>
+                <div>Copyright © 2018 wildlife.com.</div>
+            </center>
+        </div>
+        <div class="footerm">
+            <ul class="social">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="adoption.html">Adoption</a></li>
+                <li><a href="strength.html">Strength</a></li>
+                <li><a href="endangerd.html">Endangerd</a></li>
+                <li><a href="visit-us.html">Visit Us</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="donation.html" class="active">Donate</a></li>
+            </ul>
+        </div>
+        <div class="footerm">
+            <ul>
+                <li>
+                    <a title="twitter" href="https://twitter.com/wildlife" target="_blank">
+                        <img src="assets/images/icons/twitter.png">
+                    </a>
+                </li>
+                <li>
+                    <a title="facebook" href="https://facebook.com/wildlife" target="_blank">
+                        <img src="assets/images/icons/facebook.png">
+                    </a>
+                </li>
+                <li>
+                    <a title="google plus" href="https://plus.google.com/wildlife" target="_blank">
+                        <img src="assets/images/icons/google-plus.png">
+                    </a>
+                </li>
+                <li>
+                    <a title="instagram" href="https://instagram.com/wildlife" target="_blank">
+                        <img src="assets/images/icons/instagram.png">
+                    </a>
+                </li>
+                <li>
+                    <a title="wildlife" href="about-us.html" target="_blank">
+                        <img src="assets/images/logo/logo_sm.jpg">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- @end-footer -->
+
+
+    <script src="./assets/scripts/app.js"></script>
+</body>
+
+</html>
